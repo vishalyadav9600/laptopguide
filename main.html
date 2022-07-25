@@ -1,0 +1,148 @@
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<head>
+    <style type="text/css">  
+        #footer {  
+         bottom : 2; 
+         padding-bottom: 0; 
+         height : 40px;  
+         margin-top : 40px; 
+         margin: auto;
+         width: 50%;
+         text-align: center;  
+        }  
+      </style>  
+    <style>
+        .logo img{
+    width: 100px;
+    float: right;
+    height: auto;
+}
+
+    </style>
+    </head>
+<body>
+    
+
+    <nav class="w3-bar w3-black">
+        <a href="main.html" class="w3-button w3-bar-item">Home</a>
+        <a href="aboutme1.html" class="w3-button w3-bar-item">About</a>
+        <a href="service1.html" class="w3-button w3-bar-item">Services</a>
+        <a href="contact1.html" class="w3-button w3-bar-item">Contact</a>
+    </nav>
+    
+    <section>
+        <img class="mySlides" src="photos/img_band_la.jpg" style="width:100%">
+        <img class="mySlides" src="photos/img_band_ny.jpg" style="width:100%">
+        <img class="mySlides" src="photos/img_band_chicago.jpg" style="width:100%">
+    </section>
+    <script>
+    // Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 3000);
+        }
+    </script>
+    <section class="w3-container w3-center" style="max-width:600px">
+      <h2 class="w3-wide">THE LAPTOP GUIDER</h2>
+      <p class="w3-opacity"><i>We love helping for Laptops</i></p>
+    </section>
+    <section class="w3-container w3-content w3-center" style="max-width:600px">
+        <p class="w3-justify">
+        Welcome to the laptop buying website. Here you will be guided by our best experts. They have selected the best laptop based on your needs.</p>
+    </section>
+     <section class="w3-container w3-content w3-right" style="max-width:600px">
+         <div class="logo">
+                <img src="photos/logo.jpeg" alt="">
+            </div>
+    </section>
+    <section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    
+    <h2><a href="heavycoding1.html"><nav id="type">Heavy Coding</nav></a></h2>
+            <h3>Specifications:</h3>
+            <h3></h3>
+        <ul>
+            <li>Core i7 -8th gen on | Core i9-8th gen on + Dedicated Graphics (Nividia GTX/TRX or AMD Radeon RX Series)"</li>
+            <li>Ram Size- 16GB</li>
+            <li>Storage Size & Capacity: 256GB SSD or 128GB SSD + 1TB HDD</li>
+            <li>Display Resolution: 1080p (IPS or VA</li>
+            <li>Weight: under 2.5 KG</li>
+        </ul>
+  </article>
+  <article class="w3-third">
+    
+    <h2><a href="businesslaptop1.html"><nav id="type">Business Laptop</nav></a></h2>
+            <h3>Specifications:</h3>
+        <ul>
+            <li>Core i5 -8th/10th gen | Core i9-8th gen</li>
+            <li>Ram Size- 8GB</li>
+            <li>Storage Size & Capacity: 256GB SSD or higher</li>
+            <li>Display Resolution: 1080p (IPS or VA)</li>
+            <li>Weight: under 1.4 KG</li>
+        </ul>
+  </article>
+  <article class="w3-third">
+     <h2><a href="gaminglaptop1.html"><nav id="type">Gaming Laptop</nav></a></h2>
+            <h3>Specifications:</h3>
+        <ul>
+            <li>Core i7 -8th gen on | Core i9-8th gen on + Dedicated Graphics (Nividia GTX/TRX or AMD Radeon RX Series)"</li>
+                    <li>Ram Size- 16GB</li>
+                    <li>Storage Size & Capacity: 256GB SSD or 128GB SSD + 1TB HDD</li>
+                    <li>Display Resolution: 1080p (IPS or VA</li>
+                    <li>Weight: under 2.5 KG</li>
+        </ul>
+  </article>
+         <article class="w3-third">
+    <h2><a href="multitasking1.html" ><nav id="type">Multitasking Laptop</nav></a></h2>
+            <h3>Specifications:</h3>
+        <ul>
+            <li>Core i5 -8th gen/10th gen | Core i7-6th/7th gen</li>
+            <li>Ram Size- 8GB</li>
+            <li>Storage Size & Capacity: 256GB SSD or 1TB HDD</li>
+            <li>Display Resolution: 1080p (IPS or VA)</li>
+            <li>Weight: under 2.3 KG</li>
+        </ul>
+  </article>
+  <article class="w3-third">
+    <h2><a href="everyday1.html"><nav id="type">Everyday Laptop</nav></a></h2>
+            <h3>Specifications:</h3>
+            <ul>
+                <li>Core i5 -8th gen | Core i3-8th & 10th gen</li>
+                <li>Ram Size- 4GB</li>
+                <li>Storage Size & Capacity: 256GB SSD or 1TB HDD</li>
+                <li>Display Resolution: 1080p (IPS or VA)</li>
+                <li>Weight: under 1.4 KG</li>
+            </ul>
+      <br>
+        <br>
+        <br>
+  </article>
+  
+</section>
+
+<footer id="footer">
+
+    <i class="fas fa-envelope"></i>
+        <p>© Copyright 2021 TargetAchiever</p>
+        <p>Carefully Crafted with ❤️ by Vishal </p>
+    
+      </footer>
+</body>
+</html>
+ 
+        
+    
+        
